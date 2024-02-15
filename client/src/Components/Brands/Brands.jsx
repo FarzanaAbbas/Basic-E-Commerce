@@ -16,7 +16,7 @@ const fakeBranddata = [
   },
   {
     id: 4,
-    image:'images/rlupdted.jpg'
+    image: 'images/rlupdted.jpg'
   },
   {
     id: 5,
@@ -34,8 +34,8 @@ const Brand = () => {
   return (
     <div className='brands-container'>
       <Marquee>
-        {fakeBranddata.map((Brand) =>{
-          return(
+        {fakeBranddata.map((Brand) => {
+          return (
             <img src={Brand.image} key={Brand.id} className='marquee-image' alt="brand-image" />
 
           )

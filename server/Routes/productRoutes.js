@@ -3,9 +3,9 @@ const { getAllProducts, CreateProduct, singleProduct } = require('../Controllers
 
 const router = express.Router()
 
-router.post('/create',CreateProduct)
-router.get('/all',getAllProducts)
-router.get('/single/:id',singleProduct)
+router.post('/create', CreateProduct)
+router.get('/all', getAllProducts)
+router.get('/single/:id', singleProduct)
 
 
 module.exports = router

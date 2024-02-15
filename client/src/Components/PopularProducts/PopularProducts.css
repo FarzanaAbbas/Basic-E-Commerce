@@ -1,8 +1,5 @@
-.popularproducts
-{
+.popularproducts {
     display: flex;
-     /* flex-wrap: wrap; */
-    /* gap: 40px;  */
     justify-content: space-evenly;
     background-color: #DCBFFF;
     padding: 20px;

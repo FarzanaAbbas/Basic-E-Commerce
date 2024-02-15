@@ -1,24 +1,21 @@
-.footer {
-    /* display: flex;
-    justify-content:flex-end;
-    align-items: flex-end; */
+.footer>img {
+    width: 45%;
+    float: right;
+    padding: 10px;
 }
-.footer  > img {
-    width: 35%;
-    margin-right: 10px;
-    /* padding: 0px; */
-    /* margin-bottom: 20%; */
-}
-.footer-container
-{   height: 50px;
-     background-color: #DCBFFF;
-    margin:10px;
+
+.footer-container {
+    height: 50px;
+    background-color: #DCBFFF;
+    margin: 10px;
     padding: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.footer-container > h3 {
- 
-    margin-left: 35%;
+
+.footer-container>h3 {
     font-size: 20px;
+    color: #481a70;
 }

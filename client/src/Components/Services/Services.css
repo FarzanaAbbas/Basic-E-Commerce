@@ -6,16 +6,13 @@
     align-items: center;
     background-color: #E5D4FF;
     height: 150px;
-    margin: 20px;
+    margin: 25px;
 }
-
-/* h1 {
-    text-align: center; */
-    /* color: #481a70; */
 
 .icons:hover {
-background-color :#D0A2F7;
+    background-color: #D0A2F7;
 }
+
 .services-tags {
     font-family: 'Recursive', sans-serif;
     background-color: #DCBFFF;

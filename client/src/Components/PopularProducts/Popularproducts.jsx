@@ -21,20 +21,15 @@ const Popularproducts = () => {
   }, [])
 
 
-
   return (
     <div>
       <h1 className="heading-tags"> Popular Products</h1>
       <div className="popularproducts">
-        {products.map((product)=>{
-          return(
+        {products.map((product) => {
+          return (
             <ProductCard productid={product._id} name={product.productName} img={product.img} price={product.price} key={product.id} />
           )
         })}
-        {/* <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard /> */}
       </div>
     </div>
   )
