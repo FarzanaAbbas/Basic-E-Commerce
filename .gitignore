@@ -1,0 +1,4 @@
+/server/node_modules
+/server/.env
+
+this things not uploading in github

@@ -1,0 +1,9 @@
+.most{    
+    display: flex;
+   justify-content: space-evenly;
+   background-color: #DCBFFF;
+   padding: 20px;
+   margin: 20px;
+   /* border-radius: 25px; */
+   box-shadow: 2px 2px 2px 2px #D0A2F7;
+}

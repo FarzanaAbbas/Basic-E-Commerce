@@ -1,0 +1,11 @@
+.popularproducts
+{
+    display: flex;
+     /* flex-wrap: wrap; */
+    /* gap: 40px;  */
+    justify-content: space-evenly;
+    background-color: #DCBFFF;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px #D0A2F7;
+}
