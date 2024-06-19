@@ -2,6 +2,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './Banner.css'
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
 const Banner = () => {
   return (
     <Carousel autoPlay showThumbs={false} interval={3000} infiniteLoop showStatus={false} showIndicators={false}>

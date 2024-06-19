@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { AiOutlineDelete } from "react-icons/ai";
 import axios from 'axios'
 import { useEffect, useState } from 'react';
@@ -94,3 +95,16 @@ export default CartPage;
 
 
 
+=======
+import React from 'react'
+
+const Cartpage = () => {
+  return (
+    <div>
+
+    </div>
+  )
+}
+
+export default Cartpage
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47

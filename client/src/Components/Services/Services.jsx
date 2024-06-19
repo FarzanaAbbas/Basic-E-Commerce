@@ -3,6 +3,10 @@ import { AiOutlinePhone } from "react-icons/ai";
 import { BsFillTruckFrontFill } from "react-icons/bs";
 import './Services.css'
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
 const Services = () => {
   return (
     <div>

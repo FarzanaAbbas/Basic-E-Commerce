@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import axios from 'axios'
 import './Loginpage.css'
@@ -28,6 +29,27 @@ export default function Loginpage() {
       // If login fails, show an alert popup message for invalid email
       alert('Invalid email or password. Please try again.')
     }
+=======
+import React, { useState } from 'react'
+import axios from 'axios'
+import './Loginpage.css'
+import { useNavigate } from 'react-router-dom'
+
+export default function Loginpage() {
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("") //useState is shortcut for function
+  const navigate = useNavigate()
+
+  const LoginUser = async (e) => {
+    e.preventDefault()
+    const response = await axios.post('http://localhost:3000/api/v1/user/login', {
+      email: email,
+      password: password
+    })
+    console.log(response.data.data)
+    localStorage.setItem('userLogged', JSON.stringify(response.data.data)) // localstorage is used to store the user ID
+    navigate('/')
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
   }
 
   return (

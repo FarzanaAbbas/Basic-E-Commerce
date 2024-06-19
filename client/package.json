@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@stripe/react-stripe-js": "^2.7.0",
     "@stripe/stripe-js": "^3.3.0",
     "axios": "^1.6.7",
@@ -19,6 +20,15 @@
     "react-icons": "^5.0.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.22.3"
+=======
+    "axios": "^1.6.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.4",
+    "react-icons": "^5.0.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.21.3"
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

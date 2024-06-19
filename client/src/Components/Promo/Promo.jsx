@@ -1,5 +1,8 @@
 import './Promo.css'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
 const Promo = () => {
   return (
     <div className='promo-container'>

@@ -18,8 +18,12 @@ const CreateProduct = async (req, res) => {
             img: req.body.img
         })
         res.status(200).json({ message: 'Product Created' })
+<<<<<<< HEAD
     }
     catch (error) {
+=======
+    } catch (error) {
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
         //503 - internal server error status.i,e nodejs gives error
         res.status(503).json({ errorMessage: 'Something Went Wrong' })
     }
@@ -45,6 +49,12 @@ const singleProduct = async (req, res) => {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
 module.exports = {
     CreateProduct,
     getAllProducts,

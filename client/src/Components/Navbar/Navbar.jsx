@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { AiOutlineShoppingCart } from "react-icons/ai"; 
 import './Navbar.css'
 import { Link } from 'react-router-dom'
@@ -18,10 +19,18 @@ const Navbar = () => {
     }
   }
 
+=======
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import './Navbar.css'
+import { Link } from 'react-router-dom'
+
+const Navbar = () => {
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
   return (
     <nav className='navbar'>
       <h1>Ecommerce</h1>
       <div className="navbar-links">
+<<<<<<< HEAD
         {!user ? (
           <>
           <Link className="link" to={'/login'}>Login</Link>
@@ -36,6 +45,11 @@ const Navbar = () => {
           </>
         )}
         <Link className="link" to={'/cart'} ><AiOutlineShoppingCart  style={{"fontSize":"30px"}}/></Link>
+=======
+        <Link className="link" to={'/login'}>Login</Link>
+        <Link className="link" to={'/register'}>Register</Link>
+        <AiOutlineShoppingCart style={{ "fontSize": "30px" }} className="link" />
+>>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
       </div>
     </nav>
   )
