@@ -12,22 +12,15 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-<<<<<<< HEAD
     "cookie-parser": "^1.4.6",
     "jsonwebtoken": "^9.0.2",
-=======
->>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
     "cors": "^2.8.5",
     "dotenv": "^16.4.4",
     "express": "^4.18.2",
     "helmet": "^7.1.0",
     "mongoose": "^8.1.2",
     "morgan": "^1.10.0",
-<<<<<<< HEAD
     "nodemon": "^3.0.3",
     "stripe": "^15.1.0"
-=======
-    "nodemon": "^3.0.3"
->>>>>>> 337ff2f0eb705c45cd38a1fc63dc368e24fb9d47
   }
 }
